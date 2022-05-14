@@ -1,0 +1,49 @@
+body {
+    background:#6495ED;
+    color:white;
+}
+
+.header {
+    padding: 5px;
+    background: #1E90FF;
+    font-size: 30px;
+  }
+/*Meny*/
+.meny {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: grey;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+  }
+
+.meny a{
+    display: block;
+    color:F8F8FF	;
+    padding: 10px;
+}
+
+.meny a.active{
+    color: white;
+}
+
+.meny a:hover:not(.active) {
+    color:blue;
+}
+  div.main {
+    margin-left: 150px;
+    margin: 0 0 0 13em; 
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  .footer {
+      background-color:#1E90FF;
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
