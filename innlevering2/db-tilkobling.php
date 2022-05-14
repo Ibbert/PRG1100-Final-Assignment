@@ -5,7 +5,7 @@
 
   $host="localhost";
   $user="240970";  /* her skal det være studentnummeret */
-  $password="O3C3EL5z";  /* her skal det være MySQL-passordet i klartekst*/
+  $password="...";  /* her skal det være MySQL-passordet i klartekst*/
   $database="240970";  /* her skal det være studentnummeret */   
     /* verdier satt for host, user, password og database for tilkobling til databaseserver */
 
